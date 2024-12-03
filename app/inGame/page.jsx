@@ -31,7 +31,7 @@ export default function GamePage() {
     <div className="h-screen w-screen bg-slate-400 flex items-center justify-center fixed flex-col">
       <GameOver restartGame={handleRestart} modalState={gameState} />
       {gameState === 0 && (
-        <p className="mb-20 text-xl md:text-2xl lg:text-3xl xl:text-4xl text-slate-100">
+        <p className="mb-20 text-lg md:text-2xl lg:text-3xl xl:text-4xl text-slate-100">
           PRESS THE BUTTON TO START!
         </p>
       )}

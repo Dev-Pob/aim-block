@@ -26,7 +26,7 @@ export default function Home() {
           <button
             className={`${brunoAce.className} text-slate-100 bg-red-400 m-auto px-10 py-5 rounded-xl shadow-m shadow-lg-plus-red`}
           >
-            <p className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl drop-shadow-lg ">
+            <p className="text-xl sm:text-2xl md:text-3xl lg:text-5xl drop-shadow-lg ">
               GET IN THE GAME
             </p>
           </button>
